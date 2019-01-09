@@ -1,7 +1,51 @@
 <html>
-<head>
-<title>Is the Wall Built?</title>
-</head>
-<body>No</body>
+ <head>
+  <title>Is the Wall Built?</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+   @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+   blockquote{
+     font-size: 1.4em;
+     width:60%;
+     margin:50px auto;
+     font-family:Open Sans;
+     font-style:italic;
+     color: #555555;
+     padding:1.2em 30px 1.2em 75px;
+     border-left:8px solid #78C0A8 ;
+     line-height:1.6;
+     position: relative;
+     background:#EDEDED;
+   }
+   blockquote::before{
+     font-family:Arial;
+     content: "\201C";
+     color:#78C0A8;
+     font-size:4em;
+     position: absolute;
+     left: 10px;
+     top:-10px;
+   }
+   blockquote::after{
+     content: '';
+   }
+   blockquote span{
+     display:block;
+     color:#333333;
+     font-style: normal;
+     font-weight: bold;
+     margin-top:1em;
+   }
+  </style>
+ </head>
+ <body>
+  <blockquote class="blockquote">
+   <p class="mb-0">
+    No.
+   </p>
+  </blockquote>
+ </body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>
 
